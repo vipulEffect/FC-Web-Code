@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.fractal.chaoss",
+    "sha256_cert_fingerprints":
+    ["2B:B3:78:5E:23:97:E5:96:E4:DC:5B:91:45:7F:27:0E:CC:C5:FB:4A:17:D2:63:5C:9B:91:CB:1B:C0:FA:55:39"]
+  }
+}]

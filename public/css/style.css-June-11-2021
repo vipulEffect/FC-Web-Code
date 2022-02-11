@@ -1,0 +1,91 @@
+body{margin:0px auto; font-family: 'Lato', sans-serif;}
+*{margin:0px; padding:0px; font-weight: normal; text-decoration: none; list-style: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+div{float:left; width:100%;}
+*:focus{outline: none;}
+
+/******     Login Css     *******/
+
+.loginCenter{float:none; margin:auto; max-width: 575px; width:100%;}
+.loginLogo{text-align: center;}
+.loginLogo img{max-width:323px; width:100%;}
+.loginCover{background-color: #e4181b; padding: 50px 75px;}
+.loginRow{margin-bottom: 25px;}
+.loginRow input[type="text"], .loginRow input[type="email"], .loginRow input[type="password"]{float: left; border-radius: 5px; width: 100%; font-size: 16px; padding: 15px 10px; border:1px solid #fff; background-color: transparent; color:#fff;}
+.tooltip{padding: 5px 10px; background-color: #fff; float:left; margin-top:1px; border-radius: 5px; display:none;}
+.warning{color:red;}
+.success{color:green;}
+.loginRow50{width:50%;}
+.remember{float:left; color:#fff; font-size:15px;}
+#rememberCheck{border:none;}
+.forgotPassword{float:right; text-decoration: underline; color:#fff; font-weight: 500; font-size: 17px;}
+.submitRow{text-align: center; margin-top: 30px;}
+.submitRow input{display: inline-block;}
+.button{border-radius: 5px; color:#e4181b; background-color: #ffcc21; padding: 15px 50px; border:none; font-size:20px;}
+.loginBox{margin-top:20%;}
+
+
+/******     Uploads Css     *******/
+
+.pageHeader{background-color: #e4181b;}
+.headerLogo{max-width: 270px; text-align: center; background-color: white; }
+.headerLogo img{width:145px;}
+.loginBtn{float:right; font-size: 16px; color: #fff;  padding: 21px 50px;}
+.subscribeBtn{float:left; font-size: 16px; color: #fff;  padding: 21px 50px;}
+.pageContainer{padding: 55px;}
+.pageHead{font-size: 28; color: #333333; font-weight: 500; margin-bottom: 15px;}
+.contentHolder{padding: 35px; box-shadow: 0px 0px 10px 0px #d7d7d7; -moz-box-shadow: 0px 0px 10px 0px #d7d7d7; -webkit-box-shadow: 0px 0px 10px 0px #d7d7d7;}
+.RowLabel{width:25%;}
+.RowLabel label{font-size:17px; padding: 14px 0px; float: left;}
+.rowInput{padding-left: 30px; width:33%;}
+.rowInput input{width:100%; font-size:16px; padding: 15px 10px; border:1px solid #333333; border-radius: 5px;}
+.pageRow{margin-bottom: 20px;}
+.browse{width:25%; padding-left: 30px;}
+.browse input[type="file"]{display:none;}
+.file{color:#fff; background-color: #333333; padding: 12px 29px; display:inline-block; border-radius: 10px;}
+.imageFormSubmitRow{margin-top:20px;}
+.uploadImage{background-color: #e4181b; color:#fff;}
+.UploadedImageTable{margin-top:80px;}
+.tableControlRow{margin-bottom: 30px;}
+.rowBreakOne, .rowBreakTwo, .rowBreakThree{width:33.2%;}
+.rowBreakThree{text-align: right; float:right;}
+.rowBreakTwo{text-align: center;}
+.rowBreakOne select{padding: 10px; border-radius: 5px; margin:0px 5px; border:1px solid #d7d7d7;}
+.rowBreakTwo input[type="text"]{padding: 10px;  border:none;}
+.rbtinput{display: inline-block; float:none; width:auto; position: relative; overflow: hidden; border-radius: 5px;  margin-right:20px; border:1px solid #d7d7d7;}
+.rbtinput i{position: absolute; z-index: 1; left: 6px;  top: 9px;}
+.FilterTable{padding: 10px 22px; display:inline-block; font-size: 15px; color:#fff; background-color: #4d4d4d; position:relative; top:-12px;}
+.rowBreakThree input[type="text"]{padding: 10px; border-radius: 5px; margin:0px 5px; border:1px solid #d7d7d7;}
+.form50{width:50%;}
+.wallpapersTable{width:100%; border-collapse: collapse;}
+.wallpapersTable tr th{background-color: #333333; padding: 15px 10px; color:#fff; font-size:18px;}
+.wallpapersTable td{padding: 20px 10px; text-align: center;}
+.uploadImg{background: #e4181b; color: #fff;}
+.thumbnailBox{text-align: center;}
+.thumbnailprev{max-width: 78px; float:none; display:inline-block; position: relative;}
+.removeImage{position: absolute; right:-12px; top:-10px;}
+.removeImage i{color:#e4181b; font-size:24px;}
+.tableUpload{display:none;}
+.wallpaperThumb{text-align: center;}
+.wallpapersTable tr:nth-child(odd){background: #e6e6e6;}
+.actionTd{text-align: center;}
+.editLine{margin-right:10px;}
+.editLine i{font-size:24px; color:#3fb447;}
+.trash i{font-size: 24px; color:#e4181b;}
+.paginationleft{width:40%; padding-top: 47px;}
+.paginationleft p{font-size:18px;}
+.paginationRight{width:60%; text-align: right; padding-top: 35px;}
+.paginationUl{display: inline;}
+.paginationUl li{margin-right:5px;}
+.paginationUl li:last-child{margin-right:0px;}
+.paginationUl li{ font-size:18px; display:inline-block;}
+.paginationUl li a{font-size:18px; color:#000; display:inline-block; padding: 12px 17px;}
+.paginationUl li.active a{color:#fff; background-color: #e4181b;}
+.paginationPrevious, .paginationNext a{color:#e4181b !important;}
+.buttonDisabled{color:#4d4d4d!important;}
+.reorderBtn{padding: 9px 15px; margin-right:20px; display:inline-block; float:none;}
+.reorderBtn:last-child{margin:0px;}
+.reorderBtn i{font-size:30px;}
+
+/*********** user listing **********/
+
+.expiry{ font-size:12px; color:#ff0000;}
